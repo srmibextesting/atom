@@ -1,0 +1,35 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - less-cache > less > request > hawk > hoek:
+        patched: '2022-10-06T21:57:26.437Z'
+    - less-cache > less > request > hawk > boom > hoek:
+        patched: '2022-10-06T21:57:26.437Z'
+    - less-cache > less > request > hawk > sntp > hoek:
+        patched: '2022-10-06T21:57:26.437Z'
+    - less-cache > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-06T21:57:26.437Z'
+  SNYK-JS-LODASH-567746:
+    - mocha-multi-reporters > lodash:
+        patched: '2022-10-06T21:57:26.437Z'
+    - markdown-preview > cheerio > lodash:
+        patched: '2022-10-06T21:57:26.437Z'
+  'npm:lodash:20180130':
+    - babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2022-10-06T21:57:26.437Z'
+  'npm:minimatch:20160620':
+    - jasmine-tagged > jasmine-focused > jasmine-node > gaze > minimatch:
+        patched: '2022-10-06T21:57:26.437Z'
+    - jasmine-tagged > jasmine-focused > jasmine-node > gaze > fileset > minimatch:
+        patched: '2022-10-06T21:57:26.437Z'
+    - tree-view > minimatch:
+        patched: '2022-10-06T21:57:26.437Z'
+    - jasmine-tagged > jasmine-focused > jasmine-node > gaze > fileset > glob > minimatch:
+        patched: '2022-10-06T21:57:26.437Z'
+    - scandal > minimatch:
+        patched: '2022-10-06T21:57:26.437Z'
+    - settings-view > glob > minimatch:
+        patched: '2022-10-06T21:57:26.437Z'
